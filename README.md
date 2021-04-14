@@ -1,3 +1,3 @@
 # kokoa-clone-2021
 
-https&CSS will be fun!
+https&CSS will be better!
