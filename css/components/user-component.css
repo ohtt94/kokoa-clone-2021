@@ -5,6 +5,7 @@
 .user-component {
   display: flex;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .user-component__column:first-child {
@@ -13,7 +14,10 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .user-component__avatar {
@@ -47,4 +51,9 @@
 
 .user-component__title--not--bold {
   font-weight: 400;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
 }
